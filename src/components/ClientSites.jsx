@@ -36,7 +36,7 @@ export default function ClientSites() {
                 {/* Previous Button */}
                 <button 
                     onClick={handlePrev} 
-                    className="absolute left-1 sm:left-2 md:left-4 top-1/2 transform -translate-y-1/2 z-20 bg-white p-2 rounded-full shadow-md"
+                    className="absolute left-1 sm:left-2 md:left-4 top-1/2 transform -translate-y-1/2 z-20 bg-white p-2 rounded-full shadow-md cursor-pointer hover:bg-gray-100"
                 >
                     <ChevronLeft size={28} />
                 </button>
@@ -101,7 +101,7 @@ export default function ClientSites() {
                 {/* Next Button */}
                 <button 
                     onClick={handleNext} 
-                    className="absolute right-1 sm:right-2 md:right-4 top-1/2 transform -translate-y-1/2 z-20 bg-white p-2 rounded-full shadow-md"
+                    className="absolute right-1 sm:right-2 md:right-4 top-1/2 transform -translate-y-1/2 z-20 bg-white p-2 rounded-full shadow-md cursor-pointer hover:bg-gray-100"
                 >
                     <ChevronRight size={28} />
                 </button>

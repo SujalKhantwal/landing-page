@@ -37,13 +37,13 @@ export default function TestimonialSection() {
         <div className="flex justify-between mt-6">
           <button
             onClick={handlePrev}
-            className="p-2 rounded-full bg-white shadow-md hover:bg-gray-200"
+            className="p-2 rounded-full bg-white shadow-md hover:bg-gray-200 cursor-pointer"
           >
             <CircleChevronLeft />
           </button>
           <button
             onClick={handleNext}
-            className="p-2 rounded-full bg-white shadow-md hover:bg-gray-200"
+            className="p-2 rounded-full bg-white shadow-md hover:bg-gray-200 cursor-pointer"
           >
             <CircleChevronRight />
           </button>
