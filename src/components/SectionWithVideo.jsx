@@ -15,7 +15,7 @@ export default function SectionWithVideo() {
                 <video
                     className="w-full h-auto"
                     controls
-                    src="../public/-a9ee-4c3f-aedd-c9a4ec560647.mp4"
+                    src="/-a9ee-4c3f-aedd-c9a4ec560647.mp4"
                 />
             </div>
         </div>

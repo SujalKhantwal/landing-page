@@ -69,28 +69,28 @@ export const faqs = [{
 export const clientDetails = [
     {
         id: 1,
-        coverImg: "../public/Client=Agora, State=Default.png",
+        coverImg: "/Client=Agora, State=Default.png",
         name: "Agora",
         onHoverText: "The content library to catch up on the latest Agora events, talks, and fireside chats.",
         link: "https://ondemand.hubilo.io/agora"
     },
     {
         id: 2,
-        coverImg: "../public/Client=Azuga, State=Default.png",
+        coverImg: "/Client=Azuga, State=Default.png",
         name: "Azuga",
         onHoverText: "A comprehensive content library offering insights into fleet safety,driver behavior improvement, field service management, and maximizing ROI through fleet tracking.",
         link: "https://ondemand.hubilo.io/azuga"
     },
     {
         id: 3,
-        coverImg: "../public/Client=Gennext, State=Default.png",
+        coverImg: "/Client=Gennext, State=Default.png",
         name: "Uniflix by GenNext",
         onHoverText: "A media hub that offers students clear,dependable, and comprehensive information about their overseas education opportunities",
         link: "https://uniflix.tv/"
     },
     {
         id: 4,
-        coverImg: "../public/Client=Ignition, State=Default.png",
+        coverImg: "/Client=Ignition, State=Default.png",
         name: "Ignition",
         onHoverText: "A content hub offering valuable insights and practical advice from industry experts on the most pressing issues impacting your business today.",
         link: "https://ondemand.hubilo.io/ignition"

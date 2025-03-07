@@ -56,13 +56,13 @@ export default function HeroSection() {
       
       <div className="relative mt-10 w-full max-w-5xl mb-10">
         <img
-          src="../public/image 1069.png"
+          src="/image 1069.png"
           alt="Hero Section"
           className="w-full rounded-lg shadow-lg z-10 relative"
     
         />
         <img
-          src="../public/Screenshot 2024-08-27 at 12.27.50 PM 1.png"
+          src="/Screenshot 2024-08-27 at 12.27.50 PM 1.png"
           alt="Second Image"
           className="absolute bottom-6 left-0 w-full rounded-lg shadow-md z-20"
           
