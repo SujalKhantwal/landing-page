@@ -1,9 +1,11 @@
 import { motion, AnimatePresence } from "framer-motion";
 import { useState, useEffect } from "react";
+import FormComponent from "./Form";
 
 export default function HeroSection() {
   const words = ["Engage🫣", "Optimize😎", "$$$🤑"];
   const [index, setIndex] = useState(0);
+  const [showForm, setShowForm] = useState(false);
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -24,7 +26,6 @@ export default function HeroSection() {
         <span className="relative text-2xl font-bold text-orange-500 px-4 py-2 rounded-lg bg-white border-2 border-transparent before:absolute before:inset-0 before:rounded-lg before:bg-gradient-to-r before:from-[#E4875D] before:to-[#FFFFFF] before:-z-10 before:m-[-2px]">
           Media+
         </span>
-
 
         <span className="mx-2">=</span>
         <div className="h-8 overflow-hidden">
@@ -49,23 +50,34 @@ export default function HeroSection() {
       <motion.button
         whileHover={{ scale: 1.05 }}
         whileTap={{ scale: 0.95 }}
-        className="bg-orange-500 text-white px-6 py-3 rounded-md mt-6"
+        className="bg-orange-500 text-white px-6 py-3 rounded-md mt-6 cursor-pointer"
+        onClick={() => setShowForm(true)}
       >
         Request a Demo
       </motion.button>
+
+      {showForm && (
+        <div className="mt-6 p-4 bg-white shadow-lg rounded-lg">
+          <FormComponent />
+          <button 
+            className="mt-2 text-red-500" 
+            onClick={() => setShowForm(false)}
+          >
+            Close
+          </button>
+        </div>
+      )}
       
       <div className="relative mt-10 w-full max-w-5xl mb-10">
         <img
           src="/image 1069.png"
           alt="Hero Section"
           className="w-full rounded-lg shadow-lg z-10 relative"
-    
         />
         <img
           src="/Screenshot 2024-08-27 at 12.27.50 PM 1.png"
           alt="Second Image"
           className="absolute bottom-6 left-0 w-full rounded-lg shadow-md z-20"
-          
         />
       </div>
     </section>

@@ -68,7 +68,7 @@ export default function ContactForm() {
                 </div>
 
                 {/* Submit Button */}
-                <button className="w-full bg-[#E4875D] text-white font-medium py-2 rounded-md">
+                <button className="w-full bg-[#E4875D] text-white font-medium py-2 rounded-md cursor-pointer">
                     Get a free demo
                 </button>
             </div>

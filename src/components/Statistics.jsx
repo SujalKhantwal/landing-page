@@ -1,6 +1,10 @@
+import { useState } from "react";
 import Card from "./Card";
+import FormComponent from "./Form";
 
 export default function Statistics() {
+    const [showForm, setShowForm] = useState(false);
+
     return (
         <div className="w-full flex flex-col items-center text-center mt-32 px-6">
             <header className="text-center max-w-[994px]">
@@ -22,9 +26,22 @@ export default function Statistics() {
                 <Card stats="30min" topic="Setup" description="Set up your video CMS in less than 30 minutes" />
             </div>
 
-            <button className="bg-orange-500 text-white px-4 py-2 rounded-md mt-5 mb-10">
+            <button 
+                className="bg-orange-500 text-white px-4 py-2 rounded-md mt-5 mb-10 cursor-pointer"
+                onClick={() => setShowForm(true)}
+            >
                 Request a Demo
             </button>
+
+            {showForm && (
+                <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50">
+                    <div className="bg-white p-6 rounded-lg shadow-lg">
+                        <button className="text-gray-600 text-lg float-right" onClick={() => setShowForm(false)}>✖</button>
+                        <FormComponent />
+                    </div>
+                </div>
+            )}
         </div>
     );
 }
+
