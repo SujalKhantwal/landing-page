@@ -15,11 +15,10 @@ export default function Header() {
       <header className="fixed top-0 left-0 w-full py-6 z-50">
         <div className="mx-auto w-[90%] max-w-[1200px] h-[60px] border border-black/10 bg-white/30 backdrop-blur-[48px] rounded-[16px] shadow-md p-[12px] px-[24px] flex items-center justify-between">
           {/* Logo */}
-          <div className="text-2xl font-bold uppercase">
-            <span className="block leading-5">
-              V <span className="block"> ^ </span>
-            </span>
-          </div>
+        <div className="h-10 w-10 bg-white/30 backdrop-blur-[48px] rounded-md p-1">
+          <img src="/logo.png" alt="Logo" className="h-full w-full object-contain" />
+        </div>
+
 
           {/* Desktop Menu */}
           <ul className="hidden md:flex space-x-6 text-gray-700">
