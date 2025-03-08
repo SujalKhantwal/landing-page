@@ -1,8 +1,8 @@
 export default function PoweredBy() {
     return (
         <div className="flex flex-col justify-center items-center bg-[#E4875D] px-4 md:px-10 py-10 mb-20">
-            {/* Perfected by text */}
-            <div className="w-full text-white text-center font-[Helvetica Neue] font-bold leading-tight tracking-tight">
+            {/* Powered by text */}
+            <div className="w-full text-white text-center font-[Helvetica Neue] font-bold text-4xl leading-tight tracking-tight">
                 Perfected by
             </div>
 
