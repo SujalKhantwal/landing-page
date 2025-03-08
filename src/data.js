@@ -102,7 +102,7 @@ export const featuresData = [
       title: "Media Library",
       iconType: "media-library",
       features: [
-        "25 video uploads included, 1 Media site with options to add more",
+        "25 video uploads included with options to add more",
         "Upload videos directly from your computer",
         "Import past event recordings in a few clicks",
         "Effortlessly set up new events or import details"
@@ -115,7 +115,7 @@ export const featuresData = [
         "AI-generated metadata",
         "AI-generated transcripts, transcripts & speaker info",
         "Auto-generate tags by category & audience",
-        "Auto-transfer videos from HubSpot webinars & digital events to Media+"
+        "Auto-transfer videos from HubSpot webinars to Media+"
       ]
     },
     {
@@ -124,14 +124,14 @@ export const featuresData = [
       features: [
         "Use your logo and accent color, choose light or dark themes",
         "Create beautiful landing site URL with your own domain",
-        "Use preference forms to deliver tailored content to your audience"
+        "Use preference forms to deliver tailored content to audience"
       ]
     },
     {
       title: "Video player",
       iconType: "video-player",
       features: [
-        "Top video quality with descriptions, speaker info, resources, and recommendations",
+        "Top video quality with descriptions, speaker info and resources",
         "Integrated CTAs for better engagement",
         "Ask questions and share content easily",
         "Navigate through video chapters seamlessly"
